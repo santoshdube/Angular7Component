@@ -1,0 +1,12 @@
+
+<app-finput [displaylable]="'My Name'" 
+[name]="'finput'"
+[id] = "'finput'"
+[required]="true" [min]="1" [max]="20" 
+[minError] = "'Minimum 1 Character required.'"  [maxError] = "'Minimum 20 Character required.'"></app-finput>
+
+<div width="500">
+<app-ftable [option]='options' [data]="tableData" [height]="320" [width]="" [tableId]="'appTable'"></app-ftable> <br /><br />
+</div>
+<!--<app-ftable [option]='options' [data]="tdata" [height]="320" [width]="800" ></app-ftable>-->
+<fdx-data-table></fdx-data-table>

@@ -1,0 +1,38 @@
+<div class="find-box" *ngIf="findFeature">
+  <form #findForm="ngForm">
+  <div class="find-box-group">
+    <input type="text" class="find-text" value="" id="search-box" (keyup)="onKey($event)" placeholder="{{placeHoder}}">
+    <div class="finx-box-append" *ngIf="nextPrev">
+      <span class="out-of"><span class="current">{{currentPos}}</span> of <span class="total">{{findList.length}}</span></span>
+      <a href="javascript:void(0);" class="np-button" (click)="findPrevious($event)"><</a><a href="javascript:void(0);" class="np-button" (click)="findNext($event)">></a>
+    </div>
+    <div class="radio-group">
+      <span *ngFor="let list of findField;let first = first">
+      <input type="radio" name="field" value="{{list.prop}}" (click)="radioCheck($event)" id="{{list.prop}}" [ngModel]="field">&nbsp;<label for="{{list.prop}}">{{list.label}}</label>
+      </span>
+    </div>
+  </div>
+  </form>
+</div>
+<div class="simple-table">
+<table #simpleTable id="simpleTable">
+  <thead>
+        <tr class="row">
+            <th *ngFor="let header of column" class="{{header.headerClass}}">
+              <span>{{ header.label}}</span>
+            </th>
+          </tr>
+  </thead>
+  <tbody [style.height.px]="height" #scrollBody>
+      <tr class="row" *ngFor="let rows of data;let i = index;" [attr.id]="i">
+        <ng-container *ngFor="let firstRow of rows | keyvalue">
+        <td *ngFor="let header of column;let j = index" class="{{header.bodyClass}}" [attr.column]="header.prop" [attr.cell-value]="firstRow.value[j][header.prop]"
+        [attr.id]="i+'-'+header.prop+'-'+firstRow.value[j][header.prop]">
+         <p *ngIf="firstRow.value[j]['isWarningIcon']" class="tooltip-icon"><a href="#" class="tooltip-right" data-tooltip="Trailer closed">!</a></p>
+        <span [class.error]="firstRow.value[j]['isWarningIcon']">{{firstRow.value[j][header.prop]}}</span></td>
+        </ng-container>
+      </tr>    
+  </tbody>
+</table>
+</div>
+

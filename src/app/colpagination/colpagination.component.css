@@ -1,0 +1,15 @@
+.column-pagination {text-align: center;margin-bottom: 15px;}
+.column-pagination .btn {font-size:.875rem;color:#007AB7;padding: .5rem .75rem;}
+.column-pagination .btn i{font-size: 1rem;font-weight: normal}
+.column-pagination .btn i:first-child{margin-right: 5px;}
+.column-pagination .btn i:last-child{margin-left: 5px;}
+.column-pagination .btn:hover {padding: .5rem .75rem;color:#FF6200}
+.column-pagination .btn:focus {
+    outline: 0;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    }
+.column-pagination .btn:disabled{
+        color:#666;
+}

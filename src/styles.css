@@ -1,1 +1,15 @@
 /* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+body{
+    font-family: 'Roboto', sans-serif;
+    font-size:14px;
+}
+@media (min-width: 1280px){
+    .container {
+        max-width: 1280px;
+        padding-bottom:50px;
+    }
+}
+.page-header {background-color: #4D148C;color:#fff;height:45px;padding:10px 15px 0;margin-bottom: 15px}
+.page-header a {color:#fff;text-decoration:none;padding: 5px;}
+.page-header a.active {color:#fff;text-decoration: none;padding:5px;border-bottom:2px solid #fff}

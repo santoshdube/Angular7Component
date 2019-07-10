@@ -1,0 +1,9 @@
+.message-panel {
+    position: fixed;
+    bottom: 2px;
+    max-width: 1280px;
+    padding-right:15px;
+    padding-left:15px;
+    width: 100%;
+    margin-left: -15px;
+    }

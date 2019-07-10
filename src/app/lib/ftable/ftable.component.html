@@ -1,0 +1,24 @@
+<div class="ftable fixed-table-container" [attr.id]="tableId" #dataTable>
+<table width="100%" [style.height.px]="height" [style.min-width.px]="bodyWidth">
+  <thead [style.left]="headClass" [style.width.px]="bodyWidth" [style.left.px]="leftHeadPos">
+      <tr>
+        <th *ngFor="let options of option;let first = first;" [style.height.px]="headerHeight" class="{{options.headerClass}}" [style.left.px]="leftPos"  [class.first-item]="first" [style.min-width.px]="options.width">
+            <span class="header-text">{{options.name }}</span>
+          </th>
+      </tr>
+  </thead>
+  <tbody [style.height.px]="height" (scroll)="divScroll($event)" [style.width.px]="bodyWidth" #tbody>
+    <tr *ngFor="let tableData of data; ">
+        <td  *ngFor="let options of option; let first = first;" class="{{options.bodyClass}}"  [style.left.px]="leftPos"  [class.first-item]="first" [style.min-width.px]="options.width">
+          <span class="cell-text" *ngIf="!options.editable">{{tableData[options.prop]}}</span>
+          <span class="cell-input"  *ngIf="options.editable && options.fieldType === 'input'" [style.width.px]="options.width-20"><input type="text" value="{{tableData[options.prop]}}" ></span>
+          <span class="cell-input"  *ngIf="options.editable && options.fieldType === 'dropdown'" [style.width.px]="options.width-20">
+                  <select>
+                    <option>Select</option>
+                  </select>
+            </span>
+          </td>
+      </tr>
+    </tbody>
+</table>
+</div>

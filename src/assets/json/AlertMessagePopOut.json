@@ -1,0 +1,14 @@
+[
+  {
+    "messagerId;": "1",
+    "criitcalAlerts;": "true",
+    "warningAlerts": "false",
+    "infoAlerts": "false",
+    "date": "03/12/2019",
+	"itme": "05:30:00",
+	"severity": "normal",
+	"messages": "SS04 is down in delta wing.",
+	"flat": "Y",
+	"errMsg": "Please address now"
+  }
+]

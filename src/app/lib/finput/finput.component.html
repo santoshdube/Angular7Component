@@ -1,0 +1,6 @@
+<div class="form-group">
+    <label>{{ displaylable }}</label>
+    <input type="text" class="form-control" (blur)="validate($event)" (keyup)="onKey($event)" name="{{ name }}" id="{{ id }}"   />
+    {{fname}}
+    <span class="text-danger">{{erromsg}}</span>
+</div>

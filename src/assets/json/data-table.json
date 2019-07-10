@@ -1,0 +1,296 @@
+[
+  {
+    "destination": "0009",
+    "service": "HOT",
+    "dispatch": "1",
+    "largestpackage": "*",
+    "nlpt": "0089"
+  },
+  {
+    "destination": "0009",
+    "service": "HOT",
+    "dispatch": "1",
+    "largestpackage": "*",
+    "nlpt": "0089"
+  },
+  {
+    "destination": "0009",
+    "service": "HOT",
+    "dispatch": "1",
+    "largestpackage": "*",
+    "nlpt": "0089"
+  },
+  {
+    "destination": "0009",
+    "service": "HOT",
+    "dispatch": "1",
+    "largestpackage": "Y",
+    "nlpt": "0160"
+  },
+  {
+    "destination": "0009",
+    "service": "HOT",
+    "dispatch": "1",
+    "largestpackage": "Y",
+    "nlpt": "0160"
+  },
+  {
+    "destination": "0009",
+    "service": "HOT",
+    "dispatch": "1",
+    "largestpackage": "Y",
+    "nlpt": "0160"
+  },
+  {
+    "destination": "0009",
+    "service": "GND",
+    "dispatch": "1",
+    "largestpackage": "*",
+    "nlpt": "0270"
+  },
+  {
+    "destination": "0009",
+    "service": "GND",
+    "dispatch": "1",
+    "largestpackage": "N",
+    "nlpt": "0270"
+  },
+  {
+    "destination": "0009",
+    "service": "GND",
+    "dispatch": "1",
+    "largestpackage": "N",
+    "nlpt": "0270"
+  },
+  {
+    "destination": "0009",
+    "service": "GND",
+    "dispatch": "1",
+    "largestpackage": "*",
+    "nlpt": "0270"
+  },
+  {
+    "destination": "0009",
+    "service": "GND",
+    "dispatch": "1",
+    "largestpackage": "N",
+    "nlpt": "0270"
+  },
+  {
+    "destination": "0009",
+    "service": "GND",
+    "dispatch": "1",
+    "largestpackage": "N",
+    "nlpt": "0270"
+  },
+  {
+    "destination": "0009",
+    "service": "GND",
+    "dispatch": "1",
+    "largestpackage": "*",
+    "nlpt": "0270"
+  },
+  {
+    "destination": "0009",
+    "service": "GND",
+    "dispatch": "1",
+    "largestpackage": "N",
+    "nlpt": "0270"
+  },
+  {
+    "destination": "0009",
+    "service": "GND",
+    "dispatch": "1",
+    "largestpackage": "N",
+    "nlpt": "0270"
+  },
+  {
+    "destination": "0009",
+    "service": "HOT",
+    "dispatch": "2",
+    "largestpackage": "Y",
+    "nlpt": "0089"
+  },
+  {
+    "destination": "0009",
+    "service": "HOT",
+    "dispatch": "2",
+    "largestpackage": "Y",
+    "nlpt": "0089"
+  },
+  {
+    "destination": "0009",
+    "service": "HOT",
+    "dispatch": "2",
+    "largestpackage": "Y",
+    "nlpt": "0089"
+  },
+  {
+    "destination": "0009",
+    "service": "HOT",
+    "dispatch": "3",
+    "largestpackage": "Y",
+    "nlpt": "0089"
+  },
+  {
+    "destination": "0009",
+    "service": "HOT",
+    "dispatch": "3",
+    "largestpackage": "Y",
+    "nlpt": "0089"
+  },
+  {
+    "destination": "0009",
+    "service": "HOT",
+    "dispatch": "3",
+    "largestpackage": "Y",
+    "nlpt": "0089"
+  },
+  {
+    "destination": "0009",
+    "service": "HOT",
+    "dispatch": "3",
+    "largestpackage": "Y",
+    "nlpt": "0089"
+  },
+  {
+    "destination": "0009",
+    "service": "HOT",
+    "dispatch": "3",
+    "largestpackage": "Y",
+    "nlpt": "0089"
+  },
+  {
+    "destination": "0009",
+    "service": "HOT",
+    "dispatch": "3",
+    "largestpackage": "Y",
+    "nlpt": "0089"
+  },
+  {
+    "destination": "0016",
+    "service": "GND",
+    "dispatch": "1",
+    "largestpackage": "N",
+    "nlpt": "0172"
+  },
+  {
+    "destination": "0016",
+    "service": "GND",
+    "dispatch": "1",
+    "largestpackage": "N",
+    "nlpt": "0172"
+  },
+  {
+    "destination": "0016",
+    "service": "GND",
+    "dispatch": "1",
+    "largestpackage": "N",
+    "nlpt": "0172"
+  },
+  {
+    "destination": "0016",
+    "service": "HOT",
+    "dispatch": "2",
+    "largestpackage": "N",
+    "nlpt": "0089"
+  },
+  {
+    "destination": "0016",
+    "service": "HOT",
+    "dispatch": "2",
+    "largestpackage": "N",
+    "nlpt": "0089"
+  },
+  {
+    "destination": "0016",
+    "service": "HOT",
+    "dispatch": "2",
+    "largestpackage": "N",
+    "nlpt": "0089"
+  },
+  {
+    "destination": "0016",
+    "service": "HOT",
+    "dispatch": "2",
+    "largestpackage": "N",
+    "nlpt": "0152"
+  },
+  {
+    "destination": "0016",
+    "service": "HOT",
+    "dispatch": "2",
+    "largestpackage": "Y",
+    "nlpt": "0152"
+  },
+  {
+    "destination": "0016",
+    "service": "HOT",
+    "dispatch": "2",
+    "largestpackage": "N",
+    "nlpt": "0152"
+  },
+  {
+    "destination": "0016",
+    "service": "HOT",
+    "dispatch": "2",
+    "largestpackage": "Y",
+    "nlpt": "0152"
+  },
+  {
+    "destination": "0016",
+    "service": "HOT",
+    "dispatch": "2",
+    "largestpackage": "N",
+    "nlpt": "0152"
+  },
+  {
+    "destination": "0016",
+    "service": "HOT",
+    "dispatch": "2",
+    "largestpackage": "Y",
+    "nlpt": "0152"
+  },
+  {
+    "destination": "0016",
+    "service": "HOT",
+    "dispatch": "2",
+    "largestpackage": "*",
+    "nlpt": "0160"
+  },
+  {
+    "destination": "0016",
+    "service": "HOT",
+    "dispatch": "2",
+    "largestpackage": "*",
+    "nlpt": "0160"
+  },
+  {
+    "destination": "0016",
+    "service": "HOT",
+    "dispatch": "2",
+    "largestpackage": "*",
+    "nlpt": "0160"
+  },
+  {
+    "destination": "0016",
+    "service": "GND",
+    "dispatch": "2",
+    "largestpackage": "N",
+    "nlpt": "0172"
+  },
+  {
+    "destination": "0016",
+    "service": "GND",
+    "dispatch": "2",
+    "largestpackage": "N",
+    "nlpt": "0172"
+  },
+  {
+    "destination": "0016",
+    "service": "GND",
+    "dispatch": "2",
+    "largestpackage": "N",
+    "nlpt": "0172"
+  }
+]

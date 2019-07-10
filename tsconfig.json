@@ -17,6 +17,12 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "fdx-data-table": [
+        "dist/fdx-data-table",
+        "dist/fdx-data-table"
+      ]
+    }
   }
 }

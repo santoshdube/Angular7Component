@@ -1,0 +1,49 @@
+<div id="accordion" class="message-box float-right">
+  <div class="card" >
+    <div class="card-header" id="headingOne" [class.new-message]="newMsg">
+      <div class="mb-2">
+        <div class="float-left"><i class="fa fa-exclamation-circle mr-1"></i><span class="message-title" *ngIf="newMsg">You have a new message</span><span class="message-title" *ngIf="oldMsg">You have <span>{{totalMsg}}</span> Critical Message</span></div>
+        <button class="btn btn-link float-right" data-toggle="collapse" data-target="#collapseOne"  aria-expanded="false" aria-controls="collapseOne">
+          <!--(click)="toggle($event);$event.preventDefault()"-->
+          <i class="fa fa-angle-down"></i>
+          <i class="fa fa-angle-up"></i>
+        </button>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+
+    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordion">
+      <div class="card-body">
+        <div class="card-body-container" (scroll)="divScroll($event)">
+        <ul class="message-body">
+          <li class="row body-header">
+              <div class="col-md-8 body-header-title">Critical Message</div>
+              <div class="col-md-4 body-header-link"><a href="javascript:void()0;">DISMISS ALL</a></div>
+          </li>
+          <li class="row" *ngFor="let newMsg of pushMessage;let i = index">
+              <div class="col-md-8 a"><i class="fa fa-clock-o clock-icon float-left"></i>
+                  <span class="msg float-left">{{newMsg.messages}}</span>
+                  <span class="msg float-left error">{{newMsg.errMsg}}</span>
+              </div>
+              <div class="col-md-3">
+                  <span class="time">{{newMsg.time}}</span>
+                  <span class="date">{{newMsg.date}}</span>
+              </div>
+              <div class="col-md-1 text-center"><i class="fa fa-trash-o fa-fw" (click)="msgDelete($event)"></i></div>
+          </li>
+          <li class="row" *ngFor="let list of data;let i = index">
+              <div class="col-md-8"><i class="fa fa-circle dot-icon float-left"></i>
+                  <span class="msg float-left">{{list.messages}}</span>
+              </div>
+              <div class="col-md-3">
+                  <span class="time">{{list.time}}</span>
+                  <span class="date">{{list.date}}</span>
+              </div>
+              <div class="col-md-1 text-center"><i class="fa fa-trash-o fa-fw" (click)="msgDelete($event)"></i></div>
+          </li>
+        </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+ </div>
